@@ -1,7 +1,6 @@
 const elementoParaInserirLivros = document.querySelector('#livros')
 const elementoPriceTotal = document.querySelector('#valor_total_livros_disponiveis');
 
-
 function exibirOsLivro(listaDeLivros) {
   elementoPriceTotal.innerHTML = '';
   elementoParaInserirLivros.innerHTML = '';

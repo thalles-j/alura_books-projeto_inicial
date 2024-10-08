@@ -8,5 +8,4 @@ async function getBuscarLivrosDaAPI() {
     livros = await res.json();
     livros = aplicarDesconto(livros)
     exibirOsLivro(livrosComDesconto);
-
 }
