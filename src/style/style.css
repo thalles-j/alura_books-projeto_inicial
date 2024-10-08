@@ -96,6 +96,13 @@ main{
   word-wrap: normal;
 }
 
+@media(min-width:1500px){
+  .livros{
+    height: 2420px;
+
+  }
+}
+
 .livro {
 
   width: 320px;
