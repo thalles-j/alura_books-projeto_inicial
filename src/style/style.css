@@ -98,7 +98,19 @@ main{
 
 @media(min-width:1500px){
   .livros{
-    height: 2420px;
+    height: 3220px;
+
+  }
+}
+@media(max-width:1200px){
+  .livros{
+    height: 5020px;
+
+  }
+}
+@media(max-width:1500px){
+  .livros{
+    height: 10900px;
 
   }
 }
@@ -186,7 +198,7 @@ main{
   position: relative;
   padding: 50px;
   width: 100%;  
-  height: auto;
+  height: fit-content;
   background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
   margin-top: auto;
   text-align: center;
